@@ -14,7 +14,7 @@ RUN mkdir -p /opt/apm && cd /opt/apm && \
     tar zxvf napm-java-agent.tar.gz && \
     cd ./napm-java-agent/conf && \
     echo "endpoint=http://apm-collector-cust56.netease.com" >> napm-agent.properties && \
-    echo "productId=57-stock" >> napm-agent.properties && \
+    echo "productId=133-poczxb" >> napm-agent.properties && \
     echo "service=stock-provider" >> napm-agent.properties
 
 #add run command
