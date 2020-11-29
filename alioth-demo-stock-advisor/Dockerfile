@@ -1,12 +1,12 @@
 FROM tomcat:7.0.77-jre8
 
 #add application jar
-ADD ./nsf-demo-stock-advisor/target/*.jar /opt/nsf/
+ADD ./alioth-demo-stock-advisor/target/*.jar /opt/nsf/
 
 #add nsf agent jar and config file
 RUN mkdir -p /opt/nsf && cd /opt/nsf && \
     wget "http://console-cust56.netease.com/download/nsf-agent-v2.6.6-ae06cc43-20200417-150504.jar" -O nsf-agent.jar
-ADD ./nsf-demo-stock-advisor/nsf.yml /opt/nsf/nsf.yml
+ADD ./alioth-demo-stock-advisor/nsf.yml /opt/nsf/nsf.yml
 
 #add apm agent jar and config file
 RUN mkdir -p /opt/apm && cd /opt/apm && \
@@ -18,7 +18,7 @@ RUN mkdir -p /opt/apm && cd /opt/apm && \
     echo "service=stock-advisor" >> napm-agent.properties
 
 #add run command
-ADD ./nsf-demo-stock-advisor/run.sh  /opt/nsf/
+ADD ./alioth-demo-stock-advisor/run.sh  /opt/nsf/
 RUN chmod a+x /opt/nsf/run.sh
 
 CMD ["/opt/nsf/run.sh"]
