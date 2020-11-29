@@ -1,0 +1,7 @@
+com\ccb\cloud\alioth\demo\stock\advisor\web\util\CastKit.class
+com\ccb\cloud\alioth\demo\stock\advisor\web\service\IAdvisorService.class
+com\ccb\cloud\alioth\demo\stock\advisor\web\entity\Stock.class
+com\ccb\cloud\alioth\demo\stock\advisor\web\util\StringKit.class
+com\ccb\cloud\alioth\demo\stock\advisor\web\controller\AdvisorController.class
+com\ccb\cloud\alioth\demo\stock\advisor\StockAdvisorApplication.class
+com\ccb\cloud\alioth\demo\stock\advisor\web\service\impl\AdvisorServiceImpl.class

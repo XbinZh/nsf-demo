@@ -1,0 +1,14 @@
+com\ccb\cloud\alioth\demo\stock\provider\web\service\impl\ProviderServiceImpl.class
+com\ccb\cloud\alioth\demo\stock\provider\web\client\MockClient.class
+com\ccb\cloud\alioth\demo\stock\provider\web\client\SinaStockClient.class
+com\ccb\cloud\alioth\demo\stock\provider\web\entity\Stock.class
+com\ccb\cloud\alioth\demo\stock\provider\web\service\IProviderService.class
+com\ccb\cloud\alioth\demo\stock\provider\StockProviderApplication.class
+com\ccb\cloud\alioth\demo\stock\provider\web\client\KLineType.class
+com\ccb\cloud\alioth\demo\stock\provider\web\client\StockClient.class
+com\ccb\cloud\alioth\demo\stock\provider\web\controller\StockController.class
+com\ccb\cloud\alioth\demo\stock\provider\web\config\ProviderConfig.class
+com\ccb\cloud\alioth\demo\stock\provider\web\util\CastKit.class
+com\ccb\cloud\alioth\demo\stock\provider\web\util\StringKit.class
+com\ccb\cloud\alioth\demo\stock\provider\web\exception\StockException.class
+com\ccb\cloud\alioth\demo\stock\provider\web\client\NeteaseStockClient.class
