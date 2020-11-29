@@ -4,7 +4,7 @@ nsf:
   nsfServer: 'http://nsf-server-cust56.netease.com'
   application:
     name: stock-provider
-    version: 0.0.1
+    version: 0.0.2
     projectCode: zhangxiaobin
     envCode: prod
     zone: AZ1
